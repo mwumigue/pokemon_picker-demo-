@@ -22,11 +22,6 @@ h1{
     text-align: center;
 }
 
-body{
-    background-image: url(https://i.pinimg.com/originals/e0/e2/09/e0e209283e4a1d55722e2bb18bcbd19d.jpg)
-    
-}
-
 form{
     position: absolute;
     top: 50%;
@@ -38,4 +33,16 @@ form{
 }
 .blockquote-footer{
     font-size: 20px;
+}
+
+.main_page{
+    background-image: url('https://i.pinimg.com/originals/e0/e2/09/e0e209283e4a1d55722e2bb18bcbd19d.jpg');
+}
+
+.card-img-top{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 600px;
 }

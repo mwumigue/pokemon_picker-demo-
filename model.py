@@ -3,7 +3,7 @@ red_pokemon = ["Charizard", "Machamp", "Clefable", "Rampardos"]
 blue_elements = ["water", "psychic", "dark", "flying", "ice"]
 blue_pokemon = ["Blastoise", "Mew", "Darkrai", "Tornadus", "Eiscue"]
 green_elements = ["grass", "bug", "steel", "poison", "normal"]
-green_pokemon = ["Bulbasaur", "Butterfree", "Melmetal", "Arbok", "Snorlax"]
+green_pokemon = ["Venusaur", "Butterfree", "Melmetal", "Arbok", "Snorlax"]
 yellow_elements = ["electric", "ghost", "dragon", "ground"]
 yellow_pokemon = ["Pikachu", "Cofagrigus", "Dragonite", "Groudon"]
 
