@@ -1,15 +1,22 @@
 <html>
     <head>
-        <title>Welcome to the PokePicker</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="{{ url_for('static', filename='css/style.css') }}?q={{ time }}" rel="stylesheet">
+        <link rel="icon" href="https://img.pngio.com/pokeball-pokemon-ball-png-images-45334-free-icons-and-png-pokeball-icon-png-894_894.png">
+        <title>PokePicker</title>
     </head>
-    <body>
-        <h1>Please select your favorite element</h1>
+    <body class="red">
+        <h1>Welcome to PokePicker</h1>
         <form action="/results" method="post">
-            <select id="element" name= "user_element"> 
-            <option value="Fire"> Fire</option>
-            <option value="Rock"> Rock</option>
-            <option value="Fighting"> Fighting</option>
-            <option value="Fairy"> Fairy</option>
+        <div class="form-group">
+            <label for="user_element">Select your favorite element</label>
+            <select class="form-control" id="user_element" name= "user_element">
+            <option>Fire</option>
+            <option>Rock</option>
+            <option>Fighting</option>
+            <option>Fire</option>
+            </select>
+        </div>
             <input type="submit" value="Submit"/>
         </form>
     </body>
